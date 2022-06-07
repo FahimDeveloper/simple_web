@@ -1,0 +1,204 @@
+/* Basic-setup */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+/* header-area css start */
+#header_area {
+    padding: 70px 0;
+    background-color: #23232e;
+}
+
+#header_area h2,
+#header_area p {
+    color: white;
+    text-align: center;
+}
+
+.header_logo {
+    margin-bottom: 9rem;
+}
+
+.arrow_down a i {
+    color: white;
+    border: 2px solid white;
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.arrow_down {
+    margin-top: 11rem;
+}
+
+.scroll {
+    color: white;
+    background-color: #7b77c9;
+    position: fixed;
+    bottom: 5%;
+    right: 50px;
+    border: 2px solid white;
+    opacity: 0.8;
+}
+
+.scroll:hover {
+    color: white;
+}
+
+.scroll i {
+    padding: 15px;
+    border-radius: 50%;
+}
+
+/* what_i_do_area css start */
+
+#what_i_do_area {
+    padding: 90px 0;
+    background-image: url('images/what-i-do-bg.png');
+    background-position-y: -120px;
+}
+
+.description {
+    width: 65%;
+    margin: auto;
+}
+
+.description p {
+    font-size: 1.8rem;
+    color: #464b4f;
+    text-align: center;
+}
+
+#what_i_do_area strong {
+    font-size: 18px;
+}
+
+#what_i_do_area p {
+    margin: 15px 0;
+    line-height: 1.8em;
+}
+
+/* my_work_area css start */
+#my_work_area {
+    background-color: #23232e;
+    padding: 80px 0;
+}
+
+#my_work_area {
+    color: white;
+    text-align: center;
+}
+
+#my_work_area ul {
+    margin-bottom: 5rem;
+}
+
+#my_work_area ul li {
+    margin: 0 30px;
+}
+
+#my_work_area ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.nav-item :hover {
+    border-bottom: 2px solid #7b77c9;
+}
+
+.nav-item .mixitup-control-active {
+    border-bottom: 2px solid #7b77c9;
+}
+
+#my_work_area p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#my_work_area span {
+    font-size: 15px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.see_work a {
+    background-color: #7b77c9;
+    color: white;
+}
+
+/* photography_area css start */
+#photography_area {
+    padding: 80px 0;
+    background-image: url('images/photography.png');
+    background-position-y: -120px;
+}
+
+.description2 p {
+    width: 65%;
+    margin: auto;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #464b4f;
+    opacity: 0.7;
+}
+
+/* subscribe_area css start */
+#subscribe_area {
+    padding: 200px 0;
+    color: white;
+    background-color: #23232e;
+}
+
+.subscribe input {
+    padding: 13px 15px;
+    padding-right: 130px;
+    font-size: 20px;
+    border-color: #23232e;
+    border-radius: 8px;
+}
+
+.subscribe .button {
+    color: white;
+    background-color: #7b77c9;
+    padding: 13px 60px;
+    border: #7b77c9;
+    border-radius: 7px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* footer_area css start */
+#footer_area {
+    padding: 90px 0;
+    background-image: url('images/footer.png');
+    text-align: center;
+    background-position-y: -500px;
+}
+
+#footer_area ul li {
+    margin: 0 20px;
+}
+
+#footer_area ul li a {
+    color: black;
+    font-size: 40px;
+    opacity: 0.7;
+}

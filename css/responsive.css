@@ -1,0 +1,150 @@
+/* all responsive start */
+
+@media all and (max-width:767px) {
+    h2 {
+        font-size: 60px;
+    }
+
+    #header_area {
+        padding: 60px 0;
+    }
+
+    .header_logo {
+        margin-bottom: 6rem;
+    }
+
+    .arrow_down {
+        margin-top: 8rem;
+    }
+
+    .scroll {
+        right: 30px;
+    }
+
+    #what_i_do_area {
+        padding: 60px 0;
+    }
+
+    #my_work_area {
+        padding: 60px 0;
+    }
+
+    #photography_area {
+        padding: 60px 0;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description2 {
+        width: 100%;
+    }
+
+    .description2 p {
+        font-size: 1.8rem;
+    }
+
+    #subscribe_area {
+        padding: 100px 0;
+    }
+
+    .subscribe input {
+        padding: 10px 15px;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+
+    .subscribe .button {
+        padding: 13px 30px;
+        font-size: 18px;
+    }
+
+    #footer_area {
+        padding: 60px 0;
+    }
+}
+
+@media all and (max-width: 540px) {
+    h2 {
+        font-size: 45px;
+    }
+
+    #my_work_area ul li {
+        margin: 0 15px;
+    }
+
+    #my_work_area {
+        padding: 60px 0;
+    }
+}
+
+@media all and (max-width: 450px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    #header_area {
+        padding: 40px 0;
+    }
+
+    .header_logo {
+        margin-bottom: 5rem;
+    }
+
+    .arrow_down {
+        margin-top: 6rem;
+    }
+
+    #what_i_do_area {
+        padding: 40px 0;
+    }
+
+    #my_work_area {
+        padding: 40px 0;
+    }
+
+    #photography_area {
+        padding: 40px 0;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    #my_work_area ul li {
+        margin: 0 7px;
+    }
+
+    #my_work_area ul li a {
+        font-size: 14px;
+    }
+
+    .description2 p {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #subscribe_area {
+        padding: 70px 0;
+    }
+
+    .subscribe input {
+        padding: 7px 9px;
+        padding-right: 35px;
+        font-size: 15px;
+    }
+
+    .subscribe .button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    #footer_area {
+        padding: 30px 0;
+    }
+}
